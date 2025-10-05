@@ -37,14 +37,12 @@ class EmpleadoTest {
 	
 	@Test
 	void testNominaBruta999() {
-	    //Empleado emp = new Empleado();
 	    float result = emp.calculoNominaBruta(Empleado.TipoEmpleado.Vendedor, 999, 0);
 	    assertEquals(2000f, result);
 	}
 	
 	@Test
 	void testNominaBruta1000() {
-	    //Empleado emp = new Empleado();
 	    float result = emp.calculoNominaBruta(Empleado.TipoEmpleado.Vendedor, 1000, 0);
 	    System.out.println(result);
 	    assertEquals(2100f, result);
@@ -52,7 +50,6 @@ class EmpleadoTest {
 	
 	@Test
 	void testNominaBruta1499() {
-	    //Empleado emp = new Empleado();
 	    float result = emp.calculoNominaBruta(Empleado.TipoEmpleado.Encargado, 1499, 0);
 	    System.out.println(result);
 	    assertEquals(2600f, result);
@@ -60,7 +57,6 @@ class EmpleadoTest {
 	
 	@Test
 	void testNominaBruta1500() {
-	    Empleado emp = new Empleado();
 	    float result = emp.calculoNominaBruta(Empleado.TipoEmpleado.Encargado, 1500, 0);
 	    System.out.println(result);
 	    assertEquals(2700f, result);
